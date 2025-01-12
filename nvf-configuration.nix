@@ -2,6 +2,12 @@
 
 {
  vim = {
+    options = {
+      swapfile = false;
+      backup = false;
+      writebackup = false;
+    };
+
     theme = {
       enable = true;
       name = "catppuccin";
