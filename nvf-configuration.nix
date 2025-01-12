@@ -6,6 +6,7 @@
       swapfile = false;
       backup = false;
       writebackup = false;
+      clipboard = "unnamedplus";
     };
 
     theme = {
