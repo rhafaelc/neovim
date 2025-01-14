@@ -7,6 +7,12 @@
       backup = false;
       writebackup = false;
       clipboard = "unnamedplus";
+      tabstop = 4;
+      softtabstop = 4;
+      shiftwidth = 4;
+      expandtab = true;
+      smartindent = true;
+      colorcolumn = "80";
     };
 
     theme = {
@@ -27,7 +33,10 @@
       nix.enable = true;
       ts.enable = true;
       python.enable = true;
-      go.enable = true;
+      go = {
+        enable = true;
+        
+      };
      };
 
     extraPlugins = with pkgs.vimPlugins; {
